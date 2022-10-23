@@ -190,5 +190,5 @@ bar {
 for_window [class=".*"] border pixel 2
 gaps inner 10
 smart_gaps on
-exec --no-startup-id nitrogen --set-zoom-fill ~/Pictures/jw_nebula.png --head=0
+exec_always --no-startup-id nitrogen --set-zoom-fill ~/.imgs/jw_nebula.png --head=0
 exec_always --no-startup-id sh ~/.screen.sh

@@ -4,7 +4,8 @@ set shell=/bin/bash
 set encoding=utf-8
 let python_highlight_all=1
 syntax on
-set nu
+set number relativenumber
+set nu rnu
 set splitbelow
 set splitright
 "split navigations
