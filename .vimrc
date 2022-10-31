@@ -56,6 +56,7 @@ Plugin 'VundleVim/vundle.vim'
 " add all plugins here
 Plugin 'vim-scripts/indentpython.vim'
 Plugin 'dense-analysis/ale'
+Plugin 'vim-airline/vim-airline'
 
 " all of the plugins must be added before the following line
 call vundle#end()
