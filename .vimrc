@@ -1,14 +1,22 @@
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" GENERAL
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" required
 set nocompatible
 filetype off
+
+" shell
 set shell=/bin/bash
 set encoding=utf-8
-let python_highlight_all=1
-syntax on
+
+" visuals
 set cursorline
 set number relativenumber
+syntax on
+
+" split
 set splitbelow
 set splitright
-" split navigations
 nnoremap <C-J> <C-W><C-J>
 nnoremap <C-K> <C-W><C-K>
 nnoremap <C-L> <C-W><C-L>
@@ -16,6 +24,23 @@ nnoremap <C-H> <C-W><C-H>
 
 " flagging unnecessary whitespace
 au BufRead, BufNewFile *.py,*.pyw,*.c,*.h match BadWhitespace /\s\+$/
+
+
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" PYTHON
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" PEP8 indentation
+au BufNewFile, BufRead *.py
+	\ set tabstop=4
+	\ set softtabstop=4
+	\ set shiftwidth=4
+	\ set textwidth=79
+	\ set expandtab
+	\ set autoindent
+	\ set fileformat=unix
+
+" visuals
+let python_highlight_all=1
 
 " set the runtime path to include Vundle and initialize
 set rtp+=~/.vim/bundle/Vundle.vim
@@ -25,7 +50,7 @@ call vundle#begin()
 Plugin 'VundleVim/vundle.vim'
 
 " add all plugins here
-
+Plugin 'vim-scripts/indentpython.vim'
 
 " all of the plugins must be added before the following line
 call vundle#end()
