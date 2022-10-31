@@ -42,6 +42,10 @@ au BufNewFile, BufRead *.py
 " visuals
 let python_highlight_all=1
 
+
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" VUNDLE
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " set the runtime path to include Vundle and initialize
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
@@ -51,6 +55,7 @@ Plugin 'VundleVim/vundle.vim'
 
 " add all plugins here
 Plugin 'vim-scripts/indentpython.vim'
+Plugin 'dense-analysis/ale'
 
 " all of the plugins must be added before the following line
 call vundle#end()
