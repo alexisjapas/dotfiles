@@ -193,4 +193,6 @@ gaps inner 10
 smart_gaps on
 exec_always --no-startup-id nitrogen --set-zoom-fill ~/.imgs/jw_nebula.png --head=0
 exec_always --no-startup-id sh ~/.screen.sh
+bindsym XF86KbdBrightnessDown exec --no-startup-id asusctl -p
+bindsym XF86KbdBrightnessUp exec --no-startup-id asusctl -n
 bindsym XF86Launch4 exec --no-startup-id asusctl profile -n
