@@ -1,4 +1,5 @@
 # dotfiles
+Assumes "obergam" as username.
 
 ## GIT as versioning
 ### Installation
