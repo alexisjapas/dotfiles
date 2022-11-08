@@ -19,3 +19,7 @@
 `ssh-add ~/.ssh/id_ed25519`
 
 `cat ~/.ssh/id_ed25519.pub`
+
+## Asus control
+### Installation
+Follow [asus-linux](https://asus-linux.org/) instructions.
