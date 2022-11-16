@@ -196,3 +196,6 @@ exec_always --no-startup-id sh ~/.screen.sh
 bindsym XF86KbdBrightnessDown exec --no-startup-id asusctl -p
 bindsym XF86KbdBrightnessUp exec --no-startup-id asusctl -n
 bindsym XF86Launch4 exec --no-startup-id asusctl profile -n
+bindsym XF86MonBrightnessDown exec
+bindsym XF86MonBrightnessUp exec
+bindsym Print exec "sleep 0.1 && (cd ~/Pictures/screenshots/ && scrot -s -q 100)"
