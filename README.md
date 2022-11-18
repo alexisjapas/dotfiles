@@ -1,7 +1,7 @@
 # dotfiles
 Assumes "obergam" as username.
 
-## GIT: **versioning**
+## GIT: versioning
 ### Installation
 `sudo pacman -S git`
 
@@ -21,17 +21,17 @@ Assumes "obergam" as username.
 
 `cat ~/.ssh/id_ed25519.pub`
 
-## light: **screen brightness**
+## light: screen brightness
 ### Installation
 `sudo pacman -S light`
 
 ### Adding user to video group
 `sudo usermod -aG video obergam`
 
-## scrot: **screenshot**
+## scrot: screenshot
 ### Installation
 `sudo pacman -S scrot`
 
-## Asus control as **Asus** specific pc manager
+## Asus control: Asus specific pc manager
 ### Installation
 Follow [asus-linux](https://asus-linux.org/) instructions.
