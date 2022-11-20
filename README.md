@@ -1,15 +1,15 @@
 # dotfiles
 Assumes "obergam" as username.
 
-## Archlinux i3-gaps: distribution
+## distribution: archlinux i3-gaps
 ### Installation
 Follow [archlinux](https://wiki.archlinux.org/title/Installation_guide) instructions. Using archinstall.
 
-## picom: compositor
+## compositor: picom
 ### Installation
 `sudo pacman -S picom`
 
-## GIT: versioning
+## versioning: git
 ### Installation
 `sudo pacman -S git`
 
@@ -29,17 +29,17 @@ Follow [archlinux](https://wiki.archlinux.org/title/Installation_guide) instruct
 
 `cat ~/.ssh/id_ed25519.pub`
 
-## light: screen brightness
+## screen brightness: light
 ### Installation
 `sudo pacman -S light`
 
 ### Adding user to video group
 `sudo usermod -aG video obergam`
 
-## scrot: screenshot
+## screenshots: scrot
 ### Installation
 `sudo pacman -S scrot`
 
-## Asus control: Asus specific pc manager
+## Asus specific pc manager: asusctl
 ### Installation
 Follow [asus-linux](https://asus-linux.org/) instructions.
