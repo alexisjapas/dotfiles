@@ -40,6 +40,17 @@ Follow [archlinux](https://wiki.archlinux.org/title/Installation_guide) instruct
 ### Installation
 `sudo pacman -S scrot`
 
+## file explorer: thunar
+### Installation
+`sudo pacman -S thunar`
+
+## image viewer: xloadimage
+### Installation
+`sudo pacman -S xloadimage`
+
+### Configuration
+Using thunar, right click on an image -> *Properties...* -> *Open With* -> *Other Application...* -> *Use a custom command* -> `xloadimage %f`
+
 ## Asus specific pc manager: asusctl
 ### Installation
 Follow [asus-linux](https://asus-linux.org/) instructions.
