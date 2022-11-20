@@ -54,7 +54,7 @@ Using thunar, right click on an image -> *Properties...* -> *Open With* -> *Othe
 ## inputs: xinput
 Used by the **.toggle-touchpad.sh** to enable/disable touchpad
 ### Installation
-`sudo pacman -S xorg-xinout`
+`sudo pacman -S xorg-xinput`
 
 ## Asus specific pc manager: asusctl
 ### Installation
