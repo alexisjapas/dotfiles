@@ -56,6 +56,10 @@ Used by the **.toggle-touchpad.sh** to enable/disable touchpad
 ### Installation
 `sudo pacman -S xorg-xinput`
 
+## font: noto
+### Installation
+`sudo pacman -S noto-fonts`
+
 ## Asus specific pc manager: asusctl
 ### Installation
 Follow [asus-linux](https://asus-linux.org/) instructions.
