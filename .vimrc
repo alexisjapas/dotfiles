@@ -42,6 +42,11 @@ au BufNewFile, BufRead *.py
 " visuals
 let python_highlight_all=1
 
+" NERDTree
+nnoremap <leader>n :NERDTreeFocus<CR>
+nnoremap <C-n> :NERDTree<CR>
+nnoremap <C-t> :NERDTreeToggle<CR>
+nnoremap <C-f> :NERDTreeFind<CR>
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " VUNDLE
@@ -57,6 +62,7 @@ Plugin 'VundleVim/vundle.vim'
 Plugin 'vim-scripts/indentpython.vim'
 Plugin 'dense-analysis/ale'
 Plugin 'vim-airline/vim-airline'
+Plugin 'preservim/nerdtree'
 
 " all of the plugins must be added before the following line
 call vundle#end()
