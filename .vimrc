@@ -2,6 +2,7 @@
 " GENERAL
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " required
+let g:polyglot_disabled = ['markdown']
 set nocompatible
 filetype off
 
@@ -63,6 +64,7 @@ Plugin 'vim-scripts/indentpython.vim'
 Plugin 'dense-analysis/ale'
 Plugin 'vim-airline/vim-airline'
 Plugin 'preservim/nerdtree'
+Plugin 'sheerun/vim-polyglot'
 
 " all of the plugins must be added before the following line
 call vundle#end()
