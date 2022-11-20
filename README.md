@@ -51,6 +51,11 @@ Follow [archlinux](https://wiki.archlinux.org/title/Installation_guide) instruct
 ### Configuration
 Using thunar, right click on an image -> *Properties...* -> *Open With* -> *Other Application...* -> *Use a custom command* -> `xloadimage %f`
 
+## inputs: xinput
+Used by the **.toggle-touchpad.sh** to enable/disable touchpad
+### Installation
+`sudo pacman -S xorg-xinout`
+
 ## Asus specific pc manager: asusctl
 ### Installation
 Follow [asus-linux](https://asus-linux.org/) instructions.
