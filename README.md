@@ -1,6 +1,14 @@
 # dotfiles
 Assumes "obergam" as username.
 
+## Archlinux i3-gaps: distribution
+### Installation
+Follow [archlinux](https://wiki.archlinux.org/title/Installation_guide) instructions. Using archinstall.
+
+## picom: compositor
+### Installation
+`sudo pacman -S picom`
+
 ## GIT: versioning
 ### Installation
 `sudo pacman -S git`
