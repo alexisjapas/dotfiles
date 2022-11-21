@@ -60,8 +60,6 @@ call vundle#begin()
 Plugin 'VundleVim/vundle.vim'
 
 " add all plugins here
-Plugin 'vim-scripts/indentpython.vim'
-Plugin 'dense-analysis/ale'
 Plugin 'vim-airline/vim-airline'
 Plugin 'preservim/nerdtree'
 Plugin 'sheerun/vim-polyglot'
