@@ -10,6 +10,11 @@ filetype off
 set shell=/bin/bash
 set encoding=utf-8
 
+" fold
+set foldmethod=indent
+set foldlevel=99
+nnoremap <space> za
+
 " visuals
 set cursorline
 set number relativenumber
