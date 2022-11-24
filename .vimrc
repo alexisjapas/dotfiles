@@ -65,6 +65,8 @@ Plugin 'VundleVim/vundle.vim'
 Plugin 'vim-airline/vim-airline'
 Plugin 'preservim/nerdtree'
 Plugin 'sheerun/vim-polyglot'
+Plugin 'ycm-core/YouCompleteMe'
+Plugin 'cjrh/vim-conda'
 
 " all of the plugins must be added before the following line
 call vundle#end()
