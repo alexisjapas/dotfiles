@@ -33,6 +33,8 @@ nnoremap <C-t> :NERDTreeToggle<CR>
 nnoremap <C-f> :NERDTreeFind<CR>
 autocmd BufEnter * if tabpagenr('$') == 1 && winnr('$') == 1 && exists('b:NERDTree') && b:NERDTree.isTabTree() | quit | endif
 
+" YouCompleteMe
+set completeopt-=preview
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " PYTHON
@@ -49,7 +51,6 @@ au BufNewFile, BufRead *.py
 
 " visuals
 let python_highlight_all=1
-
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " VUNDLE
