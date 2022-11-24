@@ -60,6 +60,10 @@ Used by the **.toggle-touchpad.sh** to enable/disable touchpad
 ### Installation
 `sudo pacman -S noto-fonts`
 
+## vim completion: YouCompleteMe
+### Installation
+Follow [YouCompleteMe](https://github.com/ycm-core/YouCompleteMe) instructions.
+
 ## Asus specific pc manager: asusctl
 ### Installation
-Follow [asus-linux](https://asus-linux.org/) instructions.
+Follow [asus-linux](https://asus-linux.org) instructions.
