@@ -203,7 +203,7 @@ bindsym XF86Launch4 exec --no-startup-id asusctl profile -n
 bindsym XF86MonBrightnessDown exec --no-startup-id light -U 10
 bindsym XF86MonBrightnessUp exec --no-startup-id light -A 10
 bindsym XF86TouchpadToggle exec --no-startup-id sh ~/.toggle-touchpad.sh
-bindsym Print exec --no-startup-id "sleep 0.1 && (cd ~/Pictures/screenshots/ && scrot -s -q 100)"
+bindsym Print exec --no-startup-id "sleep 0.2 && (cd ~/Pictures/screenshots/ && scrot -s -q 100)"
 
 # colors
 # class                 border  backgr. text    indicator child_border
