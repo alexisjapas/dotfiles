@@ -58,6 +58,9 @@ au BufNewFile, BufRead *.py
 " visuals
 let python_highlight_all=1
 
+" vim-conda
+let g:conda_startup_wrn_suppress = 1
+
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " VUNDLE
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
