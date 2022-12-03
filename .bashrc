@@ -25,4 +25,5 @@ unset __conda_setup
 
 # Aliases
 alias p="head -n 1 /etc/asusd/profile.conf"
+alias please="sudo"
 HISTSIZE=10000
