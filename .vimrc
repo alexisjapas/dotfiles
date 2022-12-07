@@ -41,7 +41,7 @@ autocmd BufEnter * if tabpagenr('$') == 1 && winnr('$') == 1 && exists('b:NERDTr
 
 " YouCompleteMe
 set completeopt-=preview
-highlight Pmenu ctermbg=darkgray
+highlight Pmenu ctermbg=darkblue
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " PYTHON
