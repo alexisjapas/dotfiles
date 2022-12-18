@@ -26,4 +26,6 @@ unset __conda_setup
 # Aliases
 alias p="head -n 1 /etc/asusd/profile.conf"
 alias please="sudo"
+alias bb="vim ~/.bashrc"
+alias vv="vim ~/.vimrc"
 HISTSIZE=10000
