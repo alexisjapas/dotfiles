@@ -56,6 +56,10 @@ Used by the **.toggle-touchpad.sh** to enable/disable touchpad
 ### Installation
 `sudo pacman -S xorg-xinput`
 
+## hide cursor: unclutter
+### installation
+`sudo pacman -S unclutter`
+
 ## font: noto
 ### Installation
 `sudo pacman -S noto-fonts`
